@@ -23,7 +23,7 @@ struct ContentView: View {
                     .padding(.bottom)
                 
                 VStack(alignment: .leading) {
-                    Text("I am Omnya Kamal Mohammed, a software engineer who graduated from Prince Sultan University with a first-class honor degree. This is not the end of my story, I am an Apple Developer Academy alumni. It is something that I am proud of. Therefore, I have to say that after I graduated from the academy, it took a couple of months for me to rejoin the place that I always miss, but this time as part of the second year program.")
+                    Text("I am Omnya Kamal, a software engineer who graduated from Prince Sultan University with a first-class honor degree. This is not the end of my story, I am an Apple Developer Academy alumni. It is something that I am proud of. Therefore, I have to say that after I graduated from the academy, it took couple of months for me to rejoin the place that I always miss, but this time as part of the second year program.")
                         .bold()
                         .multilineTextAlignment(.center)
                         .padding(.bottom)
@@ -36,7 +36,7 @@ struct ContentView: View {
                     Text("By the end of my words, I would like to say that the photo above is a wish that was written by me on October 6, 2022, which marked as my 5th day after joining the academy. I totally believe that dreams and wishes might come true one day.")
                         .bold()
                         .multilineTextAlignment(.center)
-                        .padding([.bottom, .horizontal])
+                        .padding(.bottom)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()
